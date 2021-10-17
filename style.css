@@ -34,7 +34,7 @@
   }
 
   h1.border{
-    margin-top: 7vmin;
+    margin-top: 10vh;
     margin-left: 25%;
   }
   .navbar-nav{
@@ -42,4 +42,11 @@
   }
   .navbar-nav a{
       margin-right: 20px;
+  }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    h1.border{
+        margin-top: 5vh;
+        margin-left: 25%;
+      }
   }
