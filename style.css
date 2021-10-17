@@ -13,7 +13,7 @@
       width: 100%;
       height: 100vh;
   }
-  .bg-calendrier, .bg-description, .bg-situation, .bg-appartement, .bg-residence{
+  .bg-calendrier, .bg-description, .bg-situation, .bg-appartement{
       background-color: rgb(219, 248, 248);
       width: 100%;
       height: 100vh;
