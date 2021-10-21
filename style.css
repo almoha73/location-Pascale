@@ -4,6 +4,22 @@
     margin: 0;
     padding: 0;
   }
+  .bg-one{
+    background-color: #d95918;
+  }
+  .bg-two{
+      background-color: #ff8947;
+  }
+  .bg-three{
+      background-color: #a02800;
+  }
+  .bg-allpages{
+      background-color: #e0e0e0;
+  }
+  .text-sombre{
+      color: #333;
+  }
+
   /*ACCUEIL*/
   .bg-accueil{
       background-image: url(images/big_artfichier_22577_8228339_201905232401516.jpg);
@@ -13,60 +29,72 @@
       width: 100%;
       height: 100vh;
   }
-  .bg-calendrier, .bg-description, .bg-situation, .bg-appartement{
-      background-color: rgb(219, 248, 248);
+  .bg-allpages{
+      background-color: #e0e0e0;
       width: 100%;
       height: 100vh;
   }
-  .bg-description h1, .bg-situation h1{
-      border: 1px solid #0275d8;
-      box-shadow: -1px 4px 20px 3px #0275d8;  
-      border-radius: 2rem;
-      font-size: 5vmin;
-      color: #333; 
-  }
-  .bg-description h2{
+  
+  .bg-description h2, .bg-situation h2{
       font-size: 4vmin;
-      border: 1px solid #333;
-      box-shadow: -1px 4px 20px 3px #acb0b3; 
-      color: #333; 
-      border-radius: 2rem;
   }
-
+  .liste-description, .liste-situation{
+      list-style-image: url(images/icons8-shell-16.png);
+  }
+.border-blue{
+    border: 2px solid #a02800;
+}
+  .equipement, .bg-situation h1{
+      margin-top: 50px;
+  }
+  .equipement{
+      height: auto;
+      width: auto;
+  }
+  
   .titre-accueil{
     margin-top: 12vh;
     margin-left: 25%;
-    border: 1px solid #f3f3f3;
     padding: 10px;
-    border-radius: 3rem;
+    color: #a02800;
   }
   .navbar-nav{
       margin: auto;
   }
   .navbar-nav a{
-      margin-right: 20px;
+      margin-right: 40px;  
   }
-figure{
-      box-shadow: 0px 1px 5px 3px #0275d8;
-      border-radius: 3rem;    
+  .liens{
+color:#a02800;
   }
-  figure img{
-      border-radius: 3rem 3rem 10px 10px;
+  .liens:hover{
+      color: #ff8947;
   }
-  .separation{
-      margin: auto;
-      width: 75%;
-      height: 1px;
-      box-shadow: 0px 1px 5px 3px #0275d8;
+.nav-link:hover{
+    background-color: #ff8947;
+}
+  
+
+figure, .image-sans-figure{
+      box-shadow: 0px 2px 8px 0px #d95918;
+      border-radius: 1rem;    
+  }
+  .figure-img{
+      border-radius: 1rem 1rem 10px 10px;
   }
   .vide{
       height:2px;
       width: 100%;
   }
 
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+  @media screen and (min-width: 320px) and (max-width: 480px){
+
     .titre-accueil{
         margin-top: 5vh;
-        margin-left: 25%;
-      }
+        margin-left: 25%; 
   }
+  .icone-equipement{
+      display: none;
+  }
+}
+  
