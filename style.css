@@ -15,6 +15,8 @@
   }
   .bg-allpages{
       background-color: #e0e0e0;
+      width: 100%;
+      height: 100vh;
   }
   .text-sombre{
       color: #333;
@@ -26,11 +28,6 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      width: 100%;
-      height: 100vh;
-  }
-  .bg-allpages{
-      background-color: #e0e0e0;
       width: 100%;
       height: 100vh;
   }
@@ -62,7 +59,7 @@
       margin: auto;
   }
   .navbar-nav a{
-      margin-right: 40px;  
+      margin-right: 2vmin;  
   }
   .liens{
 color:#a02800;
@@ -96,5 +93,18 @@ figure, .image-sans-figure{
   .icone-equipement{
       display: none;
   }
+  .liensutiles{
+      display: flex;
+      flex-direction: column;
+      
+  }
 }
-  
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .equipement-1{
+        flex-direction: column;  
+
+    }
+    .icones-equipement{
+        width: 100%;
+    }
+}  
