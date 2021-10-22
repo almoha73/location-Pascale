@@ -44,7 +44,7 @@
   .bg-description h2, .bg-situation h2{
       font-size: 4vmin;
   }
-  .liste-description, .liste-situation{
+  .liste-coquillage{
       list-style-image: url(images/icons8-shell-16.png);
   }
 .border-blue{
