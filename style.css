@@ -111,6 +111,13 @@ figure, .image-sans-figure{
       flex-direction: column;
       
   }
+  .liste-coquillage li{
+      width: 100%;
+  }
+  .equipement-1{
+      width: 100%;
+      flex-direction: column;  
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 768px){
     .equipement-1{
